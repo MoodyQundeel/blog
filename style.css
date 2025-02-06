@@ -3,13 +3,13 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  padding-left: 60px;
+  padding-left: 5vw;
 }
 
 #header {
   color: white;
   font-family: "Playfair Display";
-  font-size: 80px;
+  font-size: clamp(50px, 5vw, 100px);
 }
 
 ul {
@@ -18,22 +18,28 @@ ul {
 
 li {
   list-style-type: none;
-  width: 500px;
+  width: 80vw;
   margin-bottom: 30px;
 }
 
 #title {
-  font-size: 30px;
+  font-size: clamp(30px, 3vw, 60px);
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 #content {
-  font-size: 15px;
+  font-size: clamp(20px, 2vw, 40px);
   font-weight: lighter;
   margin-bottom: 10px;
   line-height: 2;
   word-wrap: break-word;
+}
+
+#date {
+  font-size: clamp(15px, 1.5vw, 20px);
+  font-weight: lighter;
+  margin-bottom: 10px;
 }
 
 ::selection {

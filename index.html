@@ -94,8 +94,7 @@
             const words = content.innerText.split(" ");
             parent.style.cursor = "pointer";
             content.innerText = words.slice(0, maxWords).join(" ") + "...";
-            content.style.fontSize = "15px";
-            parent.style.width = "500px";
+            content.style.fontSize = "clamp(15px, 1.5vw, 30px)";
             title.style.display = "block";
             listItem.forEach((item) => {
               item.style.display = "block";
@@ -122,8 +121,7 @@
             open = item;
             item.style.cursor = "default";
             content.innerText = words.join(" ");
-            content.style.fontSize = "35px";
-            parent.style.width = "80vw";
+            content.style.fontSize = "clamp(25px, 2.5vw, 50px)";
             title.style.display = "none";
             listItem.forEach((innerItem) => {
               if (innerItem !== item) {
