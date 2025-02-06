@@ -3,7 +3,7 @@ body {
   color: white;
   margin: 0;
   padding-left: 5vw;
-  padding-right: 3vw;
+  padding-right: 5vw;
 }
 
 #header {
@@ -18,7 +18,6 @@ ul {
 
 li {
   list-style-type: none;
-  width: 80vw;
   margin-bottom: 30px;
 }
 
@@ -38,8 +37,7 @@ li {
 
 #date {
   font-size: clamp(15px, 1.5vw, 20px);
-  font-weight: lighter;
-  margin-bottom: 10px;
+  color: rgb(180, 180, 180);
 }
 
 ::selection {
