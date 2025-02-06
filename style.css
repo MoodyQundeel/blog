@@ -2,8 +2,8 @@ body {
   background-color: black;
   color: white;
   margin: 0;
-  padding: 0;
-  padding-left: clamp(50px, 5vw, 100px);
+  padding-left: 5vw;
+  padding-right: 3vw;
 }
 
 #header {
