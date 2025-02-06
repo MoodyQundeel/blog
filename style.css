@@ -3,7 +3,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
-  padding-left: 5vw;
+  padding-left: clamp(50px, 5vw, 100px);
 }
 
 #header {
